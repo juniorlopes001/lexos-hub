@@ -1,0 +1,68 @@
+@import "../../../assets/css/_fonts.scss";
+@import "../../../assets/css/_colors.scss";
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+ul {
+  display: block;
+}
+li {
+  display: block;
+  font-size: 1rem;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 4px;
+  img {
+    position: relative;
+    bottom: 4px;
+    margin-right: 2px;
+  }
+}
+
+button {
+  background-color: $primaryPink;
+  font-weight: 600;
+  font-size: 21px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 7px 30px;
+  border: none;
+  margin-top: 47px;
+}
+
+button:hover {
+  background-color: $primaryPinkHover;
+  transition: 0.2s;
+}
+
+.trial-btn {
+  border: 2px solid $primaryPink;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 12px 5px;
+  margin-top: 53px;
+  span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    text-decoration-line: underline;
+    color: #48b8e0;
+  }
+}
+
+.trial-btn:hover{
+    background-color: $primaryBlue;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid $lightGray;
+    span{
+        color: #fff;
+    }
+}

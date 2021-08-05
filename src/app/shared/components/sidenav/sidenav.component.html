@@ -1,0 +1,11 @@
+<aside>
+  <nav>
+    <ul>
+      <li *ngFor="let route of routes">
+        <a class="link" [routerLink]="route.path" routerLinkActive="active">
+          <svg-icon src="../../../../assets/icons/{{route.icon}}.svg" [svgStyle]="{ 'width.px':90 }"></svg-icon><span>{{route.name}}</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</aside>

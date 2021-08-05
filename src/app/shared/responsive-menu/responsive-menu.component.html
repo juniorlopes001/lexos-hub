@@ -1,0 +1,7 @@
+<div>
+    <div (click)="closeFilter()" class="filter-menu-overlay" *ngIf="showFilterMenu"></div>
+    <div class="filter-menu-content" [ngClass]="{ active: showFilterMenu }">
+      <app-sidenav></app-sidenav>
+    </div>
+  </div>
+  

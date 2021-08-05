@@ -1,0 +1,68 @@
+<div class="title">
+  <h1>{{ title }}</h1>
+  <h2>{{ subTitle }}</h2>
+</div>
+<div class="content">
+  <div class="card-content">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card-title">
+          {{ cardTitle }}
+        </div>
+      </div>
+    </div>
+    <div class="card-info">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="main-image">
+            <img
+              src="../../../../assets/image/{{ mainIllustrationImage }}"
+              alt="lexos hub"
+            />
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <ng-content></ng-content>
+        </div>
+      </div>
+    </div>
+    <div class="card-info">
+      <div class="row about">
+        <div class="col-lg-4 flex-center">
+          <img id="lexos-erp" src="../../../../assets/image/lexos-erp.png" width="100%"/>
+        </div>
+        <div class="col-lg-8">
+          <span>
+            Ainda não possui ERP? Conheça nosso software com mais de 2000
+            usuários ativos
+          </span>
+          <div class="row" style="margin-top: 8px;">
+            <div class="col-lg-12">
+              <a href="#"> Conheça o Lexos ERP </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sub-section">
+      <h2>Quer saber mais? Confira nossos artigos</h2>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div class="card-description">
+          <img src="../../../../assets/image/img1.png" alt="" width="100%">
+          <p>
+            Como montar uma Lanchonete: Equipamentos, Modelos e Decoração
+          </p>
+        </div>
+        
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="card-description">
+          <figure><img src="../../../../assets/image/img2.png" width="100%"></figure>
+          <p>Tipos de Notas Fiscais: Entenda a diferença entre NFe, NFCe, NFSe</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

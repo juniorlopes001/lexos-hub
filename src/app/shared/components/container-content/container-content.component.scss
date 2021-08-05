@@ -1,0 +1,91 @@
+@import "../../../../assets/css/_colors.scss";
+@import "../../../../assets/css/_fonts.scss";
+
+
+.title{
+  text-align: center;
+}
+h1 {
+  color: $primaryBlue;
+  font-weight: 500;
+}
+h2 {
+  color: $kindaDarkGray;
+  font-size: 1.31rem;
+}
+
+.card-content{
+  background-color: $lightGray;
+  padding: 16px 30px;
+}
+
+.card-title{
+  font-size: 21px;
+  font-weight: 600;
+  color: $darkGray;
+  margin: 0;
+}
+
+.card-info{
+  background-color: #fff;
+  padding: 30px 15px;
+  margin-top: 16px;
+  img{
+    max-width: 225px;
+    width: auto;
+  }
+}
+
+.content{
+  display: block;  
+}
+
+
+.about {
+  span{
+    font-size: 16px;
+    font-weight:500;
+  }
+  a{
+    font-weight: 800;
+    color: $primaryBlue;
+    font-size: 16px;
+    margin-top: 8px;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+}
+
+#lexos-erp{
+  width: auto;
+  max-width: 100%;
+}
+
+.flex-center{
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.sub-section h2{
+  font-size: 21px !important;
+  font-weight: 600 !important;
+  color: $darkGray !important;
+  margin-top: 32px !important;
+}
+
+.card-description{
+  border-radius: 6px;
+  background: #fff;
+  height: 181px;
+  margin-top: 16px;
+  img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  p{
+    padding: 10px 20px;
+  }
+}

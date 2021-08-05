@@ -1,0 +1,33 @@
+@import "../../../../assets/css/_colors.scss";
+
+.header {
+  background-color: $lightGray;
+  padding: 1.12rem 8.25rem;
+  display: flex;
+  align-items: center;
+  & img {
+    max-width: 8.25rem;
+    width: auto;
+  }
+  & ion-icon{
+    color: rgb(134, 134, 134);
+    font-size: 40px;
+  }
+}
+
+#menu{
+  background: none;
+  border: none;
+}
+@media (min-width: 993.00px){
+  #menu{
+    display: none;
+    background: none;
+    border: none;
+  }
+}
+
+:host ::ng-deep aside{
+  display: block !important;
+}
+

@@ -1,0 +1,66 @@
+@import "../../../../assets/css/_colors.scss";
+@import "../../../../assets/css/_fonts.scss";
+
+@media(max-width: 992.99px){
+  aside{
+    display: none;
+  }
+}
+
+nav {
+  display: block;
+}
+li {
+  list-style: none !important;
+  color: $kindaDarkGray;
+  padding: 5px;
+  font-weight: 600;
+  & > a {
+    text-decoration: none;
+    color: $kindaDarkGray;
+    display: inline-flex;
+    font-size: 20px;
+    ion-icon {
+      font-size: 22px;
+      position: relative;
+      top: 2px;
+    }
+    span {
+      margin-left: 10px;
+      font-size: $bodyFont;
+    }
+    .active {
+      color: $primaryBlue;
+    }
+  }
+}
+li:hover {
+
+  background-color: $lightGray;
+  color: $primaryBlue;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  fill: $primaryBlue;
+  svg path{
+    fill: $primaryBlue !important;
+  }
+}
+
+.active{
+  li{
+    background-color: $lightGray;
+    color: $primaryBlue;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    fill: $primaryBlue;
+    svg path{
+      fill: $primaryBlue !important;
+    }
+  }
+
+}
+
